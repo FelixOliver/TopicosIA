@@ -1,0 +1,25 @@
+Configuracion de BWapi con Startcraft BroodWar
+
+- Primero instale Visual Studio 2017
+- Descargue el BWapi para la version VS 2017
+- Instale el BWapi, reconociendo las carpetas mas importantes como son:
+ bwapidata, release y exampleAImodule.
+
+- Abri el proyecto ExampleAImodule en VS 2017
+- Al momento de compilar vota errores ya que el compilado de las librerias .lib,
+ se compilaron con otra version de Visual Studio.
+- Instale el Visual Studio 2013 y volvi a hacer los mismos pasos.
+- El proyecto compilo sin nigun problema y retorno un archivo .dll
+- el archivo ExampleAImodule.dll es el archivo generado, en otras palabras en la IA.
+- este archivo se copia en bwapidata/IA/ 
+- por medio del ChaosLauncher se ejecuta el Startcraft, se le da la ruta del SC.
+- Se selecciona BWAPI injector realease.
+- y el chaoslauncher ejecutar el StartCraft con nuestro archivo .dll .
+- Selecionamos ,SINGLE, EXPANSION Y ELEGIMOS PLAY CUSTOM
+- la IA , arrojara un helloworld e indicara que esta corriendo.
+
+Todos estos pasos se obserban en las imagenes de la carpeta PANTALLASOS
+el archivo .dll se encuentra en la carpeta DLL
+
+Es todo el trabajo de la configuracion.
+
